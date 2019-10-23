@@ -2,8 +2,7 @@ package defaultlogger
 
 import (
 	"os"
-
-	"github.com/op/go-logging"
+	"github.com/moisespsena-go/logging"
 )
 
 var Format = logging.MustStringFormatter(
@@ -14,6 +13,6 @@ func init() {
 	logging.SetBackend(logging.NewBackendFormatter(logging.NewLogBackend(os.Stderr, "", 0), Format))
 }
 
-func NewLogger(module string) *logging.Logger {
-	return logging.MustGetLogger(module)
+func GetOrCreateLogger(module string) logging.Logger {
+	return logging.GetOrCreateLogger(module)
 }
