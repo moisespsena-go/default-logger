@@ -1,0 +1,5 @@
+github.com/moisespsena-go/logging v0.0.2 h1:qWdk3NP4/4l8WZ7NJfUumr+4k+V+ctM8/guC6hKXSNw=
+github.com/moisespsena-go/logging v0.0.2/go.mod h1:ktLpiRW/3s714ULW/KBdDV7beOKr/uH/TPEcusg8d1o=
+github.com/moisespsena-go/path-helpers v0.0.3/go.mod h1:wgQw5+Ei7COdNIwKFG8eC1jyDDpTOIjjkrWPBZe1XU0=
+github.com/phayes/permbits v0.0.0-20190612203442-39d7c581d2ee/go.mod h1:3uODdxMgOaPYeWU7RzZLxVtJHZ/x1f/iHkBZuKJDzuY=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
